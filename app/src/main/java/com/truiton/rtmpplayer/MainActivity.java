@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements IVLCVout.Callback
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mFilePath = /*rtmp://rrbalancer.broadcast.tneg.de:1935/pw/ruk/ruk*/ "https://d18sli3kn0ibvz.cloudfront.net/1500749788381/index.m3u8";
+        mFilePath = /*rtmp://rrbalancer.broadcast.tneg.de:1935/pw/ruk/ruk*/ "";
 
         Log.d(TAG, "Playing: " + mFilePath);
         mSurface = (SurfaceView) findViewById(R.id.surface);
